@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+   
+
+}
+.background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: url('images/72c.png') no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.05;
+    z-index: -1;
+}
+
+.awoye {
+    background-color: rgb(213, 230, 230);
+    height: 30vh;
+    
+}
+.text-central {
+    padding-top: 50px;
+}
+
+.nigga {
+  font-family: "Sacramento", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 70px;
+  text-align: center;
+  margin:0;
+}
+
+.lead {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+    font-size: rem;
+    text-align: center;
+
+}
+
+
+.doodlesf {
+    position: absolute;
+    right: 300px;
+    top: 20px;
+    height: 70px;
+}
+
+.doodless {
+    position: absolute;
+    left: 150px;
+    bottom: 300px;
+    height: 70px;
+}
+
+.doodlest {
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 350px
+}
+
+.olamide {
+    height: 175px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.fw-normal {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+
+}
+
+#aboutme > div {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.abouto {
+    width: 30%;
+    font-family: san-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.myskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    
+}
+
+.skillone {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    width: 50%;
+}
+
+.skilltwo {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    width: 50%;
+
+}
+
+
+
+.Wait {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding-top: 40px;
+   
+}
+
+.whitee {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.sk {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.ska {
+    font-family: san-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#contact > div > div > p {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+#contact > div > div > div > p {
+    text-align: center;
+    font-family: san-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#footer > div {
+
+}
+
+.footerone {
+    background-color: rgb(213, 230, 230);
+}
+
+@media (min-width:200px) and (max-width:900px) {
+    .skillone {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .skilltwo {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 80%;
+        text-align: center;
+
+    }
+    
+    .abouto {
+        width: 80%;
+        font-family: san-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+
+    .ska {
+        font-family: san-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+    
+    }
+
+    #contact > div > div > div > p {
+        font-family: san-serif;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+
+    }
+}
+
+
+    background-color: rgb(213, 230, 230);
+    height: 60vh;
+    position: relative;  
+
+
+
+    padding-top: 100px;
+
+
+
+  font-family: "Sacramento", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 6rem;
+  text-align: center;
+  margin:0;
+
+
+
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    margin: 0;
+    font-size: 2rem;
+    text-align: center;
